@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL base
-base_url="https://geomancia.neocities.org/wordlist-"
+base_url="https://wherethehell.neocities.org/wordlist-"
 
 # Loop para descargar los archivos desde wordlist-0.txt hasta wordlist-499.txt
 for i in $(seq 0 499); do
