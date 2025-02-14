@@ -1,0 +1,147 @@
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'init-local' at Thu, 13 Feb 2025 16:02:05 +0000. Up 5.76 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'init' at Thu, 13 Feb 2025 16:02:13 +0000. Up 13.53 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |              Address              |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |           172.233.98.113          | 255.255.255.0 | global | f2:3c:95:8e:18:9e |
+ci-info: |  eth0  | True | 2a01:7e02::f03c:95ff:fe8e:189e/64 |       .       | global | f2:3c:95:8e:18:9e |
+ci-info: |  eth0  | True |    fe80::f03c:95ff:fe8e:189e/64   |       .       |  link  | f2:3c:95:8e:18:9e |
+ci-info: |   lo   | True |             127.0.0.1             |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |              ::1/128              |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 172.233.98.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.233.98.0 |   0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   2   |     ::/0    | fe80::1 |    eth0   |  UGe  |
+ci-info: |   4   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   5   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   6   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+The key fingerprint is:
+SHA256:DFqccWagXUJKUvntm/gi/oIIRcRBdLmVv1dJ0PPU7SU root@localhost
+The key's randomart image is:
++---[RSA 3072]----+
+| =*o++=o= .o   ..|
+|  o+o=oO    + E +|
+| .  o+*o   . = o.|
+|  . .o.oo   o . .|
+| .  .  .S. .     |
+|.       o .      |
+|.. .   . +       |
+|. . o o o        |
+|   ..+.o.        |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+The key fingerprint is:
+SHA256:Rl++DDWH4e/EG+dlDi+p98hqLUur5fjyyWVHZsbTTrA root@localhost
+The key's randomart image is:
++---[ECDSA 256]---+
+|            .    |
+|           . o   |
+|        .   * o  |
+|       . . + = +.|
+|        S o . E.%|
+|       .   o + ^o|
+|            =.B *|
+|          .*oBo+ |
+|          o*@=o..|
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+The key fingerprint is:
+SHA256:x7pwOb4BNPucf0IkfVqWk2iJ1NipvLwvi/K9E/cU4f4 root@localhost
+The key's randomart image is:
++--[ED25519 256]--+
+|         + .     |
+|        o + .    |
+|      oo + + +   |
+|     . o=.* X    |
+|      o.S=o* o   |
+|       ++=+ o    |
+|      . X= o .   |
+|    .  *+=. o E  |
+|     oo BBoo     |
++----[SHA256]-----+
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'modules:config' at Thu, 13 Feb 2025 16:02:15 +0000. Up 15.49 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'modules:final' at Thu, 13 Feb 2025 16:02:16 +0000. Up 16.72 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 finished at Thu, 13 Feb 2025 16:02:16 +0000. Datasource DataSourceAkamaiLocal.  Up 16.85 seconds
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'init-local' at Thu, 13 Feb 2025 16:44:14 +0000. Up 5.95 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'init' at Thu, 13 Feb 2025 16:44:19 +0000. Up 10.77 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |              Address              |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |           172.233.98.113          | 255.255.255.0 | global | f2:3c:95:8e:18:9e |
+ci-info: |  eth0  | True | 2a01:7e02::f03c:95ff:fe8e:189e/64 |       .       | global | f2:3c:95:8e:18:9e |
+ci-info: |  eth0  | True |    fe80::f03c:95ff:fe8e:189e/64   |       .       |  link  | f2:3c:95:8e:18:9e |
+ci-info: |   lo   | True |             127.0.0.1             |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |              ::1/128              |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 172.233.98.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.233.98.0 |   0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++++++Route IPv6 info+++++++++++++++++++++++
+ci-info: +-------+-------------+-----------------+-----------+-------+
+ci-info: | Route | Destination |     Gateway     | Interface | Flags |
+ci-info: +-------+-------------+-----------------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |        ::       |    eth0   |   U   |
+ci-info: |   2   |     ::/0    | fe80::a9fe:a9fe |    eth0   |  UGe  |
+ci-info: |   4   |    local    |        ::       |    eth0   |   U   |
+ci-info: |   5   |    local    |        ::       |    eth0   |   U   |
+ci-info: |   6   |  multicast  |        ::       |    eth0   |   U   |
+ci-info: +-------+-------------+-----------------+-----------+-------+
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'modules:config' at Thu, 13 Feb 2025 16:44:21 +0000. Up 12.38 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'modules:final' at Thu, 13 Feb 2025 16:44:21 +0000. Up 13.00 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 finished at Thu, 13 Feb 2025 16:44:21 +0000. Datasource DataSourceAkamaiLocal.  Up 13.08 seconds
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'init-local' at Thu, 13 Feb 2025 17:06:39 +0000. Up 6.03 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'init' at Thu, 13 Feb 2025 17:06:44 +0000. Up 10.87 seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |              Address              |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: |  eth0  | True |           172.233.98.113          | 255.255.255.0 | global | f2:3c:95:8e:18:9e |
+ci-info: |  eth0  | True | 2a01:7e02::f03c:95ff:fe8e:189e/64 |       .       | global | f2:3c:95:8e:18:9e |
+ci-info: |  eth0  | True |    fe80::f03c:95ff:fe8e:189e/64   |       .       |  link  | f2:3c:95:8e:18:9e |
+ci-info: |   lo   | True |             127.0.0.1             |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |              ::1/128              |       .       |  host  |         .         |
+ci-info: +--------+------+-----------------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 172.233.98.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   | 172.233.98.0 |   0.0.0.0    | 255.255.255.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    eth0   |   U   |
+ci-info: |   2   |     ::/0    | fe80::1 |    eth0   |  UGe  |
+ci-info: |   4   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   5   |    local    |    ::   |    eth0   |   U   |
+ci-info: |   6   |  multicast  |    ::   |    eth0   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'modules:config' at Thu, 13 Feb 2025 17:06:46 +0000. Up 12.51 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 running 'modules:final' at Thu, 13 Feb 2025 17:06:46 +0000. Up 13.13 seconds.
+Cloud-init v. 24.4-0ubuntu1~22.04.1 finished at Thu, 13 Feb 2025 17:06:47 +0000. Datasource DataSourceAkamaiLocal.  Up 13.22 seconds

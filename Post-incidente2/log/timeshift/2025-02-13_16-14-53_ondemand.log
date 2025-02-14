@@ -1,0 +1,139 @@
+[16:14:53] Main: check_dependencies()
+[16:14:53] [Warning] Deleted invalid lock
+[16:14:53] Main: add_default_exclude_entries()
+[16:14:53] Main: add_default_exclude_entries(): exit
+[16:14:53] update_partitions()
+[16:14:53] Device: get_disk_space_using_df(): 1
+[16:14:53] Device: get_mounted_filesystems_using_mtab(): 1
+[16:14:53] Device: get_filesystems(): 2
+[16:14:53] partition list updated
+[16:14:53] detect_system_devices()
+[16:14:53] Searching subvolume for system at path: /
+[16:14:53] Users: dummy getgetgetgetgotgotgotgot root larry hashing_lynx pikachu
+[16:14:53] Encrypted home users: 
+[16:14:53] Encrypted home dirs:
+
+[16:14:53] Encrypted private dirs:
+
+[16:14:53] Main: load_app_config()
+[16:14:53] First run mode (config file not found)
+[16:14:53] Selected default snapshot type: RSYNC
+[16:14:53] Member not found in JSON object: include_btrfs_home_for_restore
+[16:14:53] Member not found in JSON object: btrfs_use_qgroup
+[16:14:53] Member not found in JSON object: date_format
+[16:14:53] IconManager: init()
+[16:14:53] bin_path: /usr/bin/timeshift
+[16:14:53] found images directory: /usr/share/timeshift/images
+[16:14:53] Main(): ok
+[16:14:53] AppConsole: parse_arguments()
+[16:14:53] Main: initialize_repo()
+[16:14:53] backup_uuid=
+[16:14:53] backup_parent_uuid=
+[16:14:53] try_select_default_device_for_backup()
+[16:14:53] SnapshotRepo: available()
+[16:14:53] device is null
+[16:14:53] is_available: false
+[16:14:53] update_partitions()
+[16:14:53] Device: get_disk_space_using_df(): 1
+[16:14:53] Device: get_mounted_filesystems_using_mtab(): 1
+[16:14:53] Device: get_filesystems(): 2
+[16:14:53] partition list updated
+[16:14:53] Main: initialize_repo(): exit
+[16:14:53] AppConsole: start_application()
+[16:14:53] 
+[16:14:53] Select backup device:
+
+[16:14:53] 
+[16:14:56] 
+[16:14:56] SnapshotRepo: from_device(): RSYNC
+[16:14:56] SnapshotRepo: init_from_device()
+[16:14:56] 
+[16:14:56] SnapshotRepo: unlock_and_mount_devices()
+[16:14:56] device=/dev/sda
+[16:14:56] SnapshotRepo: unlock_and_mount_device()
+[16:14:56] device=/dev/sda
+[16:14:56] Device: get_mounted_filesystems_using_mtab(): 1
+[16:14:56] ------------------
+[16:14:56] arg=c4b52a3f-818a-c891-ac4a-b949bf511e72, device=/dev/sda
+[16:14:56] /
+[16:14:56] ------------------
+[16:14:56] Device: get_mounted_filesystems_using_mtab(): 1
+[16:14:56] Mounted '/dev/sda' at '/run/timeshift/backup'
+[16:14:56] SnapshotRepo: load_snapshots()
+[16:14:56] SnapshotRepo: unlock_and_mount_device(): exit
+[16:14:56] Selected snapshot device: /dev/sda
+[16:14:56] Free space: 21.9 GB
+[16:14:56] SnapshotRepo: check_status()
+[16:14:56] SnapshotRepo: available()
+[16:14:56] is_available: ok
+[16:14:56] SnapshotRepo: has_snapshots()
+[16:14:56] SnapshotRepo: has_space()
+[16:14:56] Device: get_disk_space_using_df(): 1
+[16:14:56] no snapshots
+[16:14:56] SnapshotRepo: check_status(): exit
+[16:14:56] SnapshotRepo: init_from_device(): exit
+[16:14:56] SnapshotRepo: available()
+[16:14:56] is_available: ok
+[16:14:56] Main: create_snapshot()
+[16:14:56] SnapshotRepo: has_space()
+[16:14:56] Device: get_disk_space_using_df(): 1
+[16:14:56] no snapshots
+[16:14:56] mkdir: /run/timeshift/backup/timeshift/snapshots
+[16:14:56] Main: backup_and_rotate()
+[16:14:56] SnapshotRepo: available()
+[16:14:56] is_available: ok
+[16:14:56] SnapshotRepo: has_space()
+[16:14:56] Device: get_disk_space_using_df(): 1
+[16:14:56] no snapshots
+[16:14:56] ------------------------------------------------------------------------------
+[16:14:56] Estimating system size...
+[16:14:56] estimate_system_size()
+[16:14:56] Using temp dir '/tmp/3aBxk2Js'
+[16:14:56] Main: save_exclude_list_for_backup()
+[16:14:56] Main: create_exclude_list_for_backup()
+[16:14:56] Main: create_exclude_list_for_backup(): exit
+[16:14:56] LC_ALL=C ; rsync -ai --delete --numeric-ids --relative --stats --dry-run --delete-excluded --exclude-from='/tmp/3aBxk2Js/exclude.list' /. '/tmp/3aBxk2Js/empty' &> '/tmp/3aBxk2Js/rsync.log'
+[16:14:59] First snapshot size: 4.1 GB
+[16:14:59] File count: 114897
+[16:14:59] Main: save_app_config()
+[16:14:59] SnapshotRepo: available()
+[16:14:59] is_available: ok
+[16:14:59] estimate_system_size(): ok
+[16:14:59] Creating new snapshot...(RSYNC)
+[16:14:59] Saving to device: /dev/sda, mounted at path: /run/timeshift/backup
+[16:14:59] Main: save_exclude_list_for_backup()
+[16:14:59] Main: create_exclude_list_for_backup()
+[16:14:59] Main: create_exclude_list_for_backup(): exit
+[16:14:59] Synching files with rsync...
+[16:14:59] RsyncTask:execute()
+[16:14:59] export LC_ALL=C.UTF-8
+rsync -aii --recursive --verbose --delete --force --stats --sparse --delete-excluded --log-file='/run/timeshift/backup/timeshift/snapshots/2025-02-13_16-14-56/rsync-log' --exclude-from='/run/timeshift/backup/timeshift/snapshots/2025-02-13_16-14-56/exclude.list' --delete-excluded '/' '/run/timeshift/backup/timeshift/snapshots/2025-02-13_16-14-56/localhost/'
+[16:14:59] RsyncTask:prepare(): saved: /tmp/3aBxk2Js/2025-02-13_16-14-59/script.sh
+[16:14:59] AsyncTask: child_pid: 7775
+[16:15:48] AsyncTask: finish(): enter
+[16:15:48] exit_code: 0
+[16:15:48] Created control file: /run/timeshift/backup/timeshift/snapshots/2025-02-13_16-14-56/info.json
+[16:15:48] RSYNC Snapshot saved successfully (52s)
+[16:15:48] Tagged snapshot '2025-02-13_16-14-56': ondemand
+[16:15:48] ------------------------------------------------------------------------------
+[16:15:48] SnapshotRepo: load_snapshots()
+[16:15:48] loading snapshots from '/run/timeshift/backup/timeshift/snapshots': 1 found
+[16:15:48] SnapshotRepo: auto_remove()
+[16:15:48] SnapshotRepo: remove_untagged()
+[16:15:48] SnapshotRepo: load_snapshots()
+[16:15:48] loading snapshots from '/run/timeshift/backup/timeshift/snapshots': 1 found
+[16:15:48] SnapshotRepo: load_snapshots()
+[16:15:48] loading snapshots from '/run/timeshift/backup/timeshift/snapshots': 1 found
+[16:15:48] SnapshotRepo: load_snapshots()
+[16:15:48] loading snapshots from '/run/timeshift/backup/timeshift/snapshots': 1 found
+[16:15:48] SnapshotRepo: load_snapshots()
+[16:15:48] loading snapshots from '/run/timeshift/backup/timeshift/snapshots': 1 found
+[16:15:48] Symlinks updated
+[16:15:48] exit_app()
+[16:15:48] crontab -l
+[16:15:48] Failed to read cron tab
+[16:15:48] crontab -l
+[16:15:48] Failed to read cron tab
+[16:15:48] unmount_target_device()
+[16:15:48] clean_logs()
+[16:15:48] rm -rf '/tmp/3aBxk2Js'

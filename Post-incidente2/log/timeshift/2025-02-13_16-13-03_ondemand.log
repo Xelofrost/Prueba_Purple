@@ -1,0 +1,46 @@
+[16:13:03] Main: check_dependencies()
+[16:13:03] Main: add_default_exclude_entries()
+[16:13:03] Main: add_default_exclude_entries(): exit
+[16:13:03] update_partitions()
+[16:13:03] Device: get_disk_space_using_df(): 1
+[16:13:03] Device: get_mounted_filesystems_using_mtab(): 1
+[16:13:03] Device: get_filesystems(): 2
+[16:13:03] partition list updated
+[16:13:03] detect_system_devices()
+[16:13:03] Searching subvolume for system at path: /
+[16:13:03] Users: dummy getgetgetgetgotgotgotgot root hashing_lynx pikachu
+[16:13:03] Encrypted home users: 
+[16:13:03] Encrypted home dirs:
+
+[16:13:03] Encrypted private dirs:
+
+[16:13:03] Main: load_app_config()
+[16:13:03] First run mode (config file not found)
+[16:13:03] Selected default snapshot type: RSYNC
+[16:13:03] Member not found in JSON object: include_btrfs_home_for_restore
+[16:13:03] Member not found in JSON object: btrfs_use_qgroup
+[16:13:03] Member not found in JSON object: date_format
+[16:13:03] IconManager: init()
+[16:13:03] bin_path: /usr/bin/timeshift
+[16:13:03] found images directory: /usr/share/timeshift/images
+[16:13:03] Main(): ok
+[16:13:03] AppConsole: parse_arguments()
+[16:13:03] Main: initialize_repo()
+[16:13:03] backup_uuid=
+[16:13:03] backup_parent_uuid=
+[16:13:03] try_select_default_device_for_backup()
+[16:13:03] SnapshotRepo: available()
+[16:13:03] device is null
+[16:13:03] is_available: false
+[16:13:03] update_partitions()
+[16:13:03] Device: get_disk_space_using_df(): 1
+[16:13:03] Device: get_mounted_filesystems_using_mtab(): 1
+[16:13:03] Device: get_filesystems(): 2
+[16:13:03] partition list updated
+[16:13:03] Main: initialize_repo(): exit
+[16:13:03] AppConsole: start_application()
+[16:13:03] 
+[16:13:03] Select backup device:
+
+[16:13:03] 
+[16:14:03] [timeout] Exit application
